@@ -8,7 +8,7 @@ Uses the [U.S. Web Design Standards](https://playbook.cio.gov/designstandards/)
 ## Installation
 This site is made with [Hugo](https://gohugo.io).
 
-Install Hugo via:
+Install Hugo via [Homebrew](http://brew.sh/):
 `brew update && brew install hugo`
 
 ### Running the site locally
