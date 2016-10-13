@@ -1,0 +1,7 @@
+---
+applications:
+- name: landing
+  host: landing
+memory: 64M
+path: public
+buildpack: staticfile_buildpack
