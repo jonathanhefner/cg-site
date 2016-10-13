@@ -1,0 +1,6 @@
+baseurl = "https://cloud.gov"
+languageCode = "en-us"
+title = "Cloud.gov"
+
+[params]
+  email = "cloud-gov-inquiries@gsa.gov"

@@ -1,0 +1,8 @@
+.post-content h1 {
+  font-size: 2.125rem; }
+  .post-content h1 + p {
+    margin-top: 1rem; }
+.post-content p + h1 {
+  margin-top: 2rem; }
+.post-content li > ul {
+  margin: 0; }
