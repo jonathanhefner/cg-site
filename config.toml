@@ -4,3 +4,10 @@ title = "Cloud.gov"
 
 [params]
   email = "cloud-gov-inquiries@gsa.gov"
+
+  [params.analytics]
+    [params.analytics.google]
+      code = "UA-48605964-34"
+    [params.analytics.dap]
+      agency = "GSA"
+      subagency = "18F"
