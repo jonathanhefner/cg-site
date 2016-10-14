@@ -1,9 +1,13 @@
 baseurl = "https://cloud.gov"
 languageCode = "en-us"
 title = "cloud.gov"
+pluralizelisttitles = "false"
+publishdir = "public"
 
 [params]
   email = "cloud-gov-inquiries@gsa.gov"
+  description = "cloud.gov documentation"
+  author = "18f"
 
   [params.analytics]
     [params.analytics.google]
@@ -11,3 +15,28 @@ title = "cloud.gov"
     [params.analytics.dap]
       agency = "GSA"
       subagency = "18F"
+
+[blackfriday]
+  plainIDAnchors = true
+
+
+[[menu.main]]
+    name = "Overview"
+    identifier = "overview"
+    weight = -120
+[[menu.main]]
+    name = "Pricing"
+    identifier = "pricing"
+    weight = -115
+[[menu.main]]
+    name = "Security"
+    identifier = "security"
+    weight = -110
+[[menu.main]]
+    name = "Technology"
+    identifier = "technology"
+    weight = -105
+[[menu.main]]
+    name = "Terminology"
+    identifier = "terminology"
+    weight = -100
