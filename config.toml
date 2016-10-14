@@ -1,6 +1,6 @@
 baseurl = "https://cloud.gov"
 languageCode = "en-us"
-title = "Cloud.gov"
+title = "cloud.gov"
 pluralizelisttitles = "false"
 publishdir = "public"
 
